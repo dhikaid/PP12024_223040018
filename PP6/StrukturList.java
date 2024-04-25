@@ -4,9 +4,6 @@
  */
 package PP6;
 
-import PP5.*;
-import PP5.*;
-import ListAdd.*;
 
 /**
  *
