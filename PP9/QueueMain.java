@@ -26,7 +26,7 @@ public class QueueMain {
         queue.enqueque(2);
         queue.enqueque(3);
         
-        // Tampilkan size dan isEmpty
+        // Tampilkan size, element, front dan isEmpty
         System.out.println("size: " + queue.size());
         System.out.println("isEmpty: " + queue.isEmpty());
         System.out.print("Elemen queue: " ); queue.displayElement();

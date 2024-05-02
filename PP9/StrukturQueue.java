@@ -33,7 +33,7 @@ Node FRONT;
         }
     }
     
-//  FUNCTION Empty cek isi node
+//  FUNCTION Empty cek isi elemen/node kosong atau tidak, jika iya = true
      public boolean isEmpty() {
         return FRONT == null;
      }
@@ -52,7 +52,7 @@ Node FRONT;
 //       mengembalikan jumlah size
          return size;
      }
-     
+        
 // Function front berfungsi sebagai mengembalikan elemen yang ditunjuk oleh penunjuk FRONT
      public int front(){
         return FRONT != null ? FRONT.GetData() : -1;
@@ -73,7 +73,7 @@ Node FRONT;
                 curNode = curNode.GetNext();
             }
          }
-         
+      
      }
      
 // OPERASI DEQUEUE, Untuk menghapus elemen awal / FIFO
